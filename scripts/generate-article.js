@@ -29,7 +29,7 @@ const ROOT_DIR = join(__dirname, '..');
 // ── Configuration ──────────────────────────────────────────────────────────
 const QUEUE_PATH = join(ROOT_DIR, 'src', 'content', 'queue.json');
 const RATGEBER_DIR = join(ROOT_DIR, 'src', 'content', 'ratgeber');
-const MODEL_NAME = 'gemini-2.0-flash';
+const MODEL_NAME = 'gemini-1.5-flash';
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 
