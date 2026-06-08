@@ -16,6 +16,7 @@
     "@google/generative-ai": "^0.24.1",
     "@tailwindcss/vite": "^4.3.0",
     "astro": "^6.4.4",
+    "basic-ftp": "^6.0.1",
     "tailwindcss": "^4.3.0"
   }
 }

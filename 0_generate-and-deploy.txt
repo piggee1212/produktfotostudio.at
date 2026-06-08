@@ -1,0 +1,213 @@
+﻿2026-06-08T09:38:21.3188275Z Current runner version: '2.334.0'
+2026-06-08T09:38:21.3222628Z ##[group]Runner Image Provisioner
+2026-06-08T09:38:21.3223995Z Hosted Compute Agent
+2026-06-08T09:38:21.3225210Z Version: 20260520.533
+2026-06-08T09:38:21.3226278Z Commit: 189110e25284a9812c124fd27b339e2fb4f2f9db
+2026-06-08T09:38:21.3227615Z Build Date: 2026-05-20T17:44:04Z
+2026-06-08T09:38:21.3228623Z Worker ID: {c37a50df-a8f1-43c2-8495-f95a52f7c712}
+2026-06-08T09:38:21.3229913Z Azure Region: eastus2
+2026-06-08T09:38:21.3230803Z ##[endgroup]
+2026-06-08T09:38:21.3233492Z ##[group]Operating System
+2026-06-08T09:38:21.3234988Z Ubuntu
+2026-06-08T09:38:21.3235834Z 24.04.4
+2026-06-08T09:38:21.3236774Z LTS
+2026-06-08T09:38:21.3237645Z ##[endgroup]
+2026-06-08T09:38:21.3238666Z ##[group]Runner Image
+2026-06-08T09:38:21.3239685Z Image: ubuntu-24.04
+2026-06-08T09:38:21.3240727Z Version: 20260525.161.1
+2026-06-08T09:38:21.3242680Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260525.161/images/ubuntu/Ubuntu2404-Readme.md
+2026-06-08T09:38:21.3245669Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260525.161
+2026-06-08T09:38:21.3247278Z ##[endgroup]
+2026-06-08T09:38:21.3249634Z ##[group]GITHUB_TOKEN Permissions
+2026-06-08T09:38:21.3252681Z Contents: write
+2026-06-08T09:38:21.3253755Z Metadata: read
+2026-06-08T09:38:21.3254894Z ##[endgroup]
+2026-06-08T09:38:21.3258313Z Secret source: Actions
+2026-06-08T09:38:21.3260193Z Prepare workflow directory
+2026-06-08T09:38:21.3718502Z Prepare all required actions
+2026-06-08T09:38:21.3771968Z Getting action download info
+2026-06-08T09:38:21.7488231Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-06-08T09:38:21.8760941Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-06-08T09:38:21.9631224Z Download action repository 'SamKirkland/FTP-Deploy-Action@v4.3.0' (SHA:d0aa83872616587eb552bc831bb9166b3f9c5ad5)
+2026-06-08T09:38:22.2227692Z Complete job name: generate-and-deploy
+2026-06-08T09:38:22.2988464Z ##[group]Run actions/checkout@v4
+2026-06-08T09:38:22.2989380Z with:
+2026-06-08T09:38:22.2994090Z   token: ***
+2026-06-08T09:38:22.2994886Z   repository: piggee1212/produktfotostudio.at
+2026-06-08T09:38:22.2995558Z   ssh-strict: true
+2026-06-08T09:38:22.2996050Z   ssh-user: git
+2026-06-08T09:38:22.2996560Z   persist-credentials: true
+2026-06-08T09:38:22.2997117Z   clean: true
+2026-06-08T09:38:22.2997636Z   sparse-checkout-cone-mode: true
+2026-06-08T09:38:22.2998225Z   fetch-depth: 1
+2026-06-08T09:38:22.2998735Z   fetch-tags: false
+2026-06-08T09:38:22.2999354Z   show-progress: true
+2026-06-08T09:38:22.2999866Z   lfs: false
+2026-06-08T09:38:22.3000349Z   submodules: false
+2026-06-08T09:38:22.3000851Z   set-safe-directory: true
+2026-06-08T09:38:22.3001630Z ##[endgroup]
+2026-06-08T09:38:22.4137058Z Syncing repository: piggee1212/produktfotostudio.at
+2026-06-08T09:38:22.4139065Z ##[group]Getting Git version info
+2026-06-08T09:38:22.4140313Z Working directory is '/home/runner/work/produktfotostudio.at/produktfotostudio.at'
+2026-06-08T09:38:22.4141663Z [command]/usr/bin/git version
+2026-06-08T09:38:22.4198732Z git version 2.54.0
+2026-06-08T09:38:22.4223885Z ##[endgroup]
+2026-06-08T09:38:22.4238268Z Temporarily overriding HOME='/home/runner/work/_temp/afd3a711-43bd-48f7-8464-0bc803c299b0' before making global git config changes
+2026-06-08T09:38:22.4239805Z Adding repository directory to the temporary git global config as a safe directory
+2026-06-08T09:38:22.4252550Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/produktfotostudio.at/produktfotostudio.at
+2026-06-08T09:38:22.4293724Z Deleting the contents of '/home/runner/work/produktfotostudio.at/produktfotostudio.at'
+2026-06-08T09:38:22.4297554Z ##[group]Initializing the repository
+2026-06-08T09:38:22.4301600Z [command]/usr/bin/git init /home/runner/work/produktfotostudio.at/produktfotostudio.at
+2026-06-08T09:38:22.4371890Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-06-08T09:38:22.4374156Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-06-08T09:38:22.4376144Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-06-08T09:38:22.4377539Z hint: call:
+2026-06-08T09:38:22.4378072Z hint:
+2026-06-08T09:38:22.4378945Z hint: 	git config --global init.defaultBranch <name>
+2026-06-08T09:38:22.4379682Z hint:
+2026-06-08T09:38:22.4380464Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-06-08T09:38:22.4381938Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-06-08T09:38:22.4382789Z hint:
+2026-06-08T09:38:22.4383290Z hint: 	git branch -m <name>
+2026-06-08T09:38:22.4383985Z hint:
+2026-06-08T09:38:22.4384904Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-06-08T09:38:22.4386664Z Initialized empty Git repository in /home/runner/work/produktfotostudio.at/produktfotostudio.at/.git/
+2026-06-08T09:38:22.4388827Z [command]/usr/bin/git remote add origin https://github.com/piggee1212/produktfotostudio.at
+2026-06-08T09:38:22.4424816Z ##[endgroup]
+2026-06-08T09:38:22.4425741Z ##[group]Disabling automatic garbage collection
+2026-06-08T09:38:22.4428898Z [command]/usr/bin/git config --local gc.auto 0
+2026-06-08T09:38:22.4457901Z ##[endgroup]
+2026-06-08T09:38:22.4458738Z ##[group]Setting up auth
+2026-06-08T09:38:22.4464139Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-06-08T09:38:22.4495630Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-06-08T09:38:22.4804930Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-06-08T09:38:22.4837805Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-06-08T09:38:22.5067402Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-06-08T09:38:22.5098393Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-06-08T09:38:22.5339216Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-06-08T09:38:22.5375817Z ##[endgroup]
+2026-06-08T09:38:22.5376841Z ##[group]Fetching the repository
+2026-06-08T09:38:22.5383880Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +ce7656796a5a5ad428f5d124d1a705fa30054275:refs/remotes/origin/main
+2026-06-08T09:38:23.2133095Z From https://github.com/piggee1212/produktfotostudio.at
+2026-06-08T09:38:23.2135013Z  * [new ref]         ce7656796a5a5ad428f5d124d1a705fa30054275 -> origin/main
+2026-06-08T09:38:23.2162820Z ##[endgroup]
+2026-06-08T09:38:23.2164178Z ##[group]Determining the checkout info
+2026-06-08T09:38:23.2165643Z ##[endgroup]
+2026-06-08T09:38:23.2171195Z [command]/usr/bin/git sparse-checkout disable
+2026-06-08T09:38:23.2213402Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-06-08T09:38:23.2240735Z ##[group]Checking out the ref
+2026-06-08T09:38:23.2243216Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-06-08T09:38:23.2323172Z Switched to a new branch 'main'
+2026-06-08T09:38:23.2325684Z branch 'main' set up to track 'origin/main'.
+2026-06-08T09:38:23.2333522Z ##[endgroup]
+2026-06-08T09:38:23.2370234Z [command]/usr/bin/git log -1 --format=%H
+2026-06-08T09:38:23.2394737Z ce7656796a5a5ad428f5d124d1a705fa30054275
+2026-06-08T09:38:23.2803191Z ##[group]Run actions/setup-node@v4
+2026-06-08T09:38:23.2804736Z with:
+2026-06-08T09:38:23.2805639Z   node-version: 20
+2026-06-08T09:38:23.2806611Z   cache: npm
+2026-06-08T09:38:23.2807536Z   always-auth: false
+2026-06-08T09:38:23.2808545Z   check-latest: false
+2026-06-08T09:38:23.2819612Z   token: ***
+2026-06-08T09:38:23.2820540Z ##[endgroup]
+2026-06-08T09:38:23.4608436Z Attempting to download 20...
+2026-06-08T09:38:23.8617433Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+2026-06-08T09:38:24.3058679Z Extracting ...
+2026-06-08T09:38:24.3167774Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/6dee71bf-abc1-4781-a322-ba5f6434d154 -f /home/runner/work/_temp/1b697106-3fcb-4670-bd14-0fb2ed5f651b
+2026-06-08T09:38:25.4120083Z Adding to the cache ...
+2026-06-08T09:38:26.9160511Z ##[group]Environment details
+2026-06-08T09:38:27.1689375Z node: v20.20.2
+2026-06-08T09:38:27.1690025Z npm: 10.8.2
+2026-06-08T09:38:27.1690411Z yarn: 1.22.22
+2026-06-08T09:38:27.1691355Z ##[endgroup]
+2026-06-08T09:38:27.1711447Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+2026-06-08T09:38:27.2792778Z /home/runner/.npm
+2026-06-08T09:38:27.3571749Z npm cache is not found
+2026-06-08T09:38:27.3755953Z ##[group]Run npm ci
+2026-06-08T09:38:27.3756433Z [36;1mnpm ci[0m
+2026-06-08T09:38:27.3798700Z shell: /usr/bin/bash -e {0}
+2026-06-08T09:38:27.3799035Z ##[endgroup]
+2026-06-08T09:38:27.8324499Z npm warn EBADENGINE Unsupported engine {
+2026-06-08T09:38:27.8325709Z npm warn EBADENGINE   package: 'produktfotostudio.at@0.0.1',
+2026-06-08T09:38:27.8326698Z npm warn EBADENGINE   required: { node: '>=22.12.0' },
+2026-06-08T09:38:27.8327661Z npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+2026-06-08T09:38:27.8328400Z npm warn EBADENGINE }
+2026-06-08T09:38:27.8329044Z npm warn EBADENGINE Unsupported engine {
+2026-06-08T09:38:27.8330128Z npm warn EBADENGINE   package: '@astrojs/prism@4.0.2',
+2026-06-08T09:38:27.8331218Z npm warn EBADENGINE   required: { node: '>=22.12.0' },
+2026-06-08T09:38:27.8332319Z npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+2026-06-08T09:38:27.8333218Z npm warn EBADENGINE }
+2026-06-08T09:38:27.8334137Z npm warn EBADENGINE Unsupported engine {
+2026-06-08T09:38:27.8335207Z npm warn EBADENGINE   package: 'astro@6.4.4',
+2026-06-08T09:38:27.8336417Z npm warn EBADENGINE   required: { node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0' },
+2026-06-08T09:38:27.8337701Z npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+2026-06-08T09:38:27.8338629Z npm warn EBADENGINE }
+2026-06-08T09:38:31.8272691Z 
+2026-06-08T09:38:31.8273549Z added 278 packages, and audited 279 packages in 4s
+2026-06-08T09:38:31.8285154Z 
+2026-06-08T09:38:31.8286059Z 142 packages are looking for funding
+2026-06-08T09:38:31.8286612Z   run `npm fund` for details
+2026-06-08T09:38:31.8286879Z 
+2026-06-08T09:38:31.8287066Z found 0 vulnerabilities
+2026-06-08T09:38:31.8522159Z ##[group]Run npm install @google/generative-ai
+2026-06-08T09:38:31.8522574Z [36;1mnpm install @google/generative-ai[0m
+2026-06-08T09:38:31.8551225Z shell: /usr/bin/bash -e {0}
+2026-06-08T09:38:31.8551721Z ##[endgroup]
+2026-06-08T09:38:32.4152190Z npm warn EBADENGINE Unsupported engine {
+2026-06-08T09:38:32.4153510Z npm warn EBADENGINE   package: 'produktfotostudio.at@0.0.1',
+2026-06-08T09:38:32.4155122Z npm warn EBADENGINE   required: { node: '>=22.12.0' },
+2026-06-08T09:38:32.4156295Z npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+2026-06-08T09:38:32.4157167Z npm warn EBADENGINE }
+2026-06-08T09:38:32.4158000Z npm warn EBADENGINE Unsupported engine {
+2026-06-08T09:38:32.4158980Z npm warn EBADENGINE   package: '@astrojs/prism@4.0.2',
+2026-06-08T09:38:32.4160010Z npm warn EBADENGINE   required: { node: '>=22.12.0' },
+2026-06-08T09:38:32.4161034Z npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+2026-06-08T09:38:32.4162011Z npm warn EBADENGINE }
+2026-06-08T09:38:32.4166539Z npm warn EBADENGINE Unsupported engine {
+2026-06-08T09:38:32.4167255Z npm warn EBADENGINE   package: 'astro@6.4.4',
+2026-06-08T09:38:32.4168196Z npm warn EBADENGINE   required: { node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0' },
+2026-06-08T09:38:32.4169625Z npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+2026-06-08T09:38:32.4170288Z npm warn EBADENGINE }
+2026-06-08T09:38:32.8280943Z 
+2026-06-08T09:38:32.8282360Z up to date, audited 279 packages in 907ms
+2026-06-08T09:38:32.8283109Z 
+2026-06-08T09:38:32.8283548Z 142 packages are looking for funding
+2026-06-08T09:38:32.8284228Z   run `npm fund` for details
+2026-06-08T09:38:32.8293105Z 
+2026-06-08T09:38:32.8293607Z found 0 vulnerabilities
+2026-06-08T09:38:32.8438198Z ##[group]Run node scripts/generate-article.js
+2026-06-08T09:38:32.8438604Z [36;1mnode scripts/generate-article.js[0m
+2026-06-08T09:38:32.8466776Z shell: /usr/bin/bash -e {0}
+2026-06-08T09:38:32.8467058Z env:
+2026-06-08T09:38:32.8467673Z   GEMINI_API_KEY: ***
+2026-06-08T09:38:32.8467928Z ##[endgroup]
+2026-06-08T09:38:32.8856540Z 🔍 Loading article queue...
+2026-06-08T09:38:32.8865181Z 📝 Generating article: "Modefotografie für E-Commerce: Der komplette Leitfaden" (mode-und-bekleidung)
+2026-06-08T09:38:32.8865818Z    Category: Produkttyp-Ratgeber
+2026-06-08T09:38:32.8866445Z    Keywords: Modefotografie, Fashion E-Commerce, Bekleidung fotografieren, Mode Produktfotos, Kleidung Fotografie
+2026-06-08T09:38:32.8867554Z    Internal links: farbtreue-kalibrierung, schuhe-fotografieren, taschen-und-accessoires
+2026-06-08T09:38:32.8869905Z 🤖 Calling Gemini API...
+2026-06-08T09:38:33.1540346Z ❌ Fatal error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.
+2026-06-08T09:38:33.1546165Z Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.
+2026-06-08T09:38:33.1548467Z     at handleResponseNotOk (file:///home/runner/work/produktfotostudio.at/produktfotostudio.at/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+2026-06-08T09:38:33.1549967Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-08T09:38:33.1551280Z     at async makeRequest (file:///home/runner/work/produktfotostudio.at/produktfotostudio.at/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+2026-06-08T09:38:33.1552527Z     at async generateContent (file:///home/runner/work/produktfotostudio.at/produktfotostudio.at/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+2026-06-08T09:38:33.1553579Z     at async main (file:///home/runner/work/produktfotostudio.at/produktfotostudio.at/scripts/generate-article.js:228:18)
+2026-06-08T09:38:33.2266535Z ##[error]Process completed with exit code 1.
+2026-06-08T09:38:33.2398614Z Post job cleanup.
+2026-06-08T09:38:33.3396622Z [command]/usr/bin/git version
+2026-06-08T09:38:33.3432072Z git version 2.54.0
+2026-06-08T09:38:33.3472406Z Temporarily overriding HOME='/home/runner/work/_temp/96a47c1e-05ce-43a0-ae63-a42fb87523e3' before making global git config changes
+2026-06-08T09:38:33.3473312Z Adding repository directory to the temporary git global config as a safe directory
+2026-06-08T09:38:33.3477935Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/produktfotostudio.at/produktfotostudio.at
+2026-06-08T09:38:33.3513010Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-06-08T09:38:33.3545954Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-06-08T09:38:33.3780220Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-06-08T09:38:33.3804548Z http.https://github.com/.extraheader
+2026-06-08T09:38:33.3816469Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-06-08T09:38:33.3848389Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-06-08T09:38:33.4080800Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-06-08T09:38:33.4131021Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-06-08T09:38:33.4462312Z Cleaning up orphan processes
+2026-06-08T09:38:33.4740135Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-node@v4. Actions will be forced to run with Node.js 24 by default starting June 16th, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
