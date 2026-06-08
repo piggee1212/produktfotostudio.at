@@ -52,6 +52,17 @@ jobs:
           FTP_PASS: ${{ secrets.FTP_PASSWORD }}
           FTP_HOST: ${{ secrets.FTP_SERVER }}
         run: |
-          find dist -type f -printf "%P\n" | while read file; do
-            curl -k --ssl -u "$FTP_USER:$FTP_PASS" --ftp-create-dirs -T "dist/$file" "ftp://$FTP_HOST/produktfotostudio.at/web/$file"
-          done
+          sudo apt-get install -y lftp
+          lftp -u "$FTP_USER","$FTP_PASS" "ftp://$FTP_HOST" -e "
+            set ssl:verify-certificate false;
+            set ssl:check-hostname false;
+            set ftp:ssl-allow true;
+            set ftp:ssl-force false;
+            set ftp:ssl-protect-data false;
+            set ftp:passive-mode true;
+            set net:max-retries 5;
+            set net:reconnect-interval-base 10;
+            set net:timeout 30;
+            debug 3;
+            mirror -R --delete --verbose --no-perms dist/ produktfotostudio.at/web/;
+            quit"
