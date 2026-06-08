@@ -47,8 +47,11 @@ jobs:
           git push
 
       - name: Deploy via FTP
+        env:
+          FTP_USER: ${{ secrets.FTP_USERNAME }}
+          FTP_PASS: ${{ secrets.FTP_PASSWORD }}
+          FTP_HOST: ${{ secrets.FTP_SERVER }}
         run: |
-          sudo apt-get install -y lftp
-          lftp -u "${{ secrets.FTP_USERNAME }}","${{ secrets.FTP_PASSWORD }}" \
-            -e "set ssl:verify-certificate false; set ftp:ssl-force false; set net:max-retries 3; mirror -R --delete --verbose --no-perms dist/ produktfotostudio.at/web/; quit" \
-            ftp://${{ secrets.FTP_SERVER }}
+          find dist -type f -printf "%P\n" | while read file; do
+            curl -k -u "$FTP_USER:$FTP_PASS" --ftp-create-dirs -T "dist/$file" "ftps://$FTP_HOST/produktfotostudio.at/web/$file"
+          done
