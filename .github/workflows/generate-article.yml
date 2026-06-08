@@ -54,11 +54,7 @@ jobs:
         run: |
           sudo apt-get install -y lftp
           lftp -u "$FTP_USER","$FTP_PASS" "ftp://$FTP_HOST" -e "
-            set ssl:verify-certificate false;
-            set ssl:check-hostname false;
-            set ftp:ssl-allow true;
-            set ftp:ssl-force false;
-            set ftp:ssl-protect-data false;
+            set ftp:ssl-allow false;
             set ftp:passive-mode true;
             set net:max-retries 5;
             set net:reconnect-interval-base 10;
@@ -66,3 +62,4 @@ jobs:
             debug 3;
             mirror -R --delete --verbose --no-perms dist/ produktfotostudio.at/web/;
             quit"
+
