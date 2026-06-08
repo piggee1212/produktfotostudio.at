@@ -53,5 +53,5 @@ jobs:
           FTP_HOST: ${{ secrets.FTP_SERVER }}
         run: |
           find dist -type f -printf "%P\n" | while read file; do
-            curl -k -u "$FTP_USER:$FTP_PASS" --ftp-create-dirs -T "dist/$file" "ftps://$FTP_HOST/produktfotostudio.at/web/$file"
+            curl -k --ssl -u "$FTP_USER:$FTP_PASS" --ftp-create-dirs -T "dist/$file" "ftp://$FTP_HOST/produktfotostudio.at/web/$file"
           done
