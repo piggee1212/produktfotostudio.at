@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Produktfoto Studio",
+  "url": "https://produktfotostudio.at",
+  "description": "Ratgeber und Ressourcen für professionelle Produktfotografie in Österreich",
+  "inLanguage": "de-AT",
+  "publisher": {
+    "@type": "Person",
+    "name": "Vladimir Kocian",
+    "url": "https://www.vladimirkocian.com",
+    "jobTitle": "Professional Photographer & Art Director",
+    "sameAs": [
+      "https://www.linkedin.com/in/vladimir-kocian-b5208310/",
+      "https://www.instagram.com/vladimirkocian/",
+      "https://www.facebook.com/vladimirkocianmedia/",
+      "https://www.pinterest.at/piggee1212/"
+    ]
+  },
+  "isPartOf": {
+    "@type": "Organization",
+    "name": "Vladimir Kocian Fotografie",
+    "url": "https://www.vladimirkocian.com"
+  }
+}

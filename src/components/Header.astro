@@ -1,0 +1,140 @@
+---
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { href: '/', label: 'Startseite' },
+  { href: '/ratgeber/', label: 'Ratgeber' },
+  { href: '/kosten/', label: 'Kosten' },
+  { href: '/faq/', label: 'FAQ' },
+  { href: '/ueber-uns/', label: 'Über uns' },
+  { href: '/kontakt/', label: 'Kontakt' },
+];
+
+function isActive(href: string): boolean {
+  if (href === '/') return currentPath === '/';
+  return currentPath.startsWith(href);
+}
+---
+
+<header class="glass fixed top-0 left-0 right-0 z-50">
+  <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex h-16 items-center justify-between lg:h-20">
+      <!-- Logo -->
+      <a href="/" class="group flex items-center gap-2">
+        <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-500/10 border border-amber-500/20 transition-colors group-hover:bg-amber-500/20">
+          <svg class="h-5 w-5 text-amber-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" />
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-sm font-bold tracking-wider text-amber-500 font-heading uppercase leading-tight">
+            Produktfoto
+          </span>
+          <span class="text-[0.65rem] font-medium tracking-[0.2em] text-navy-400 uppercase leading-tight">
+            Studio Wien
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden lg:flex lg:items-center lg:gap-1">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              'relative px-3 py-2 text-sm font-medium rounded-lg transition-all duration-200',
+              isActive(link.href)
+                ? 'text-amber-400 bg-amber-500/10'
+                : 'text-navy-300 hover:text-white hover:bg-white/5',
+            ]}
+          >
+            {link.label}
+            {isActive(link.href) && (
+              <span class="absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 w-4 rounded-full bg-amber-500" />
+            )}
+          </a>
+        ))}
+      </div>
+
+      <!-- CTA Button (Desktop) -->
+      <div class="hidden lg:block">
+        <a
+          href="/kontakt/"
+          class="inline-flex items-center gap-2 rounded-lg bg-amber-500 px-4 py-2 text-sm font-semibold text-navy-950 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20"
+        >
+          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+          </svg>
+          Anfrage senden
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-button"
+        type="button"
+        class="lg:hidden flex items-center justify-center rounded-lg p-2 text-navy-400 hover:bg-white/5 hover:text-white transition-colors"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Menü öffnen"
+      >
+        <svg id="menu-icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <svg id="menu-icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div
+      id="mobile-menu"
+      class="hidden lg:hidden border-t border-navy-700/50 pb-4 pt-2"
+    >
+      <div class="flex flex-col gap-1">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              'flex items-center rounded-lg px-3 py-2.5 text-sm font-medium transition-colors',
+              isActive(link.href)
+                ? 'text-amber-400 bg-amber-500/10'
+                : 'text-navy-300 hover:text-white hover:bg-white/5',
+            ]}
+          >
+            {link.label}
+          </a>
+        ))}
+        <div class="mt-2 pt-2 border-t border-navy-700/50">
+          <a
+            href="/kontakt/"
+            class="flex items-center justify-center gap-2 rounded-lg bg-amber-500 px-4 py-2.5 text-sm font-semibold text-navy-950 transition-all hover:bg-amber-400"
+          >
+            Anfrage senden
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Spacer to offset fixed header -->
+<div class="h-16 lg:h-20"></div>
+
+<script>
+  const button = document.getElementById('mobile-menu-button');
+  const menu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('menu-icon-open');
+  const iconClose = document.getElementById('menu-icon-close');
+
+  button?.addEventListener('click', () => {
+    const isOpen = menu?.classList.contains('hidden');
+    menu?.classList.toggle('hidden');
+    iconOpen?.classList.toggle('hidden');
+    iconClose?.classList.toggle('hidden');
+    button?.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    button?.setAttribute('aria-label', isOpen ? 'Menü schließen' : 'Menü öffnen');
+  });
+</script>

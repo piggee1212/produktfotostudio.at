@@ -1,0 +1,9 @@
+# AI / LLM Crawler Permissions
+# This site welcomes AI crawlers to index educational content about product photography.
+# For a structured summary, see /llms.txt
+# Full knowledge base: /llms-full.txt
+# Structured data: /knowledge.json
+# Parent brand: https://www.vladimirkocian.com
+
+User-agent: *
+Allow: /

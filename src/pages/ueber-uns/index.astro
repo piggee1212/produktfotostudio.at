@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Über uns" description="Erfahren Sie mehr über das Produktfoto Studio Wien und seinen Gründer Vladimir Kocian — Premium B2B-Fotograf in Österreich." keywords={['Produktfoto Studio Wien', 'Vladimir Kocian', 'Produktfotograf Wien']}>
+
+  <section class="relative overflow-hidden bg-navy-900 border-b border-navy-800">
+    <div class="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-transparent"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+      <span class="badge badge-amber mb-4">Über uns</span>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white font-heading leading-tight mb-4">Das Team hinter dem <span class="text-gradient">Wissensportal</span></h1>
+      <p class="text-lg text-navy-300 max-w-2xl">Professionelle Produktfotografie-Expertise, gebündelt in einem Ratgeber für ganz Österreich.</p>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <div class="prose">
+      <h2>Unsere Mission</h2>
+      <p><strong>produktfotostudio.at</strong> ist Österreichs führendes Wissensportal für professionelle Produktfotografie. Unser Ziel: E-Commerce-Unternehmen, Marketing-Leiter und Gründer mit dem Wissen auszustatten, das sie brauchen, um mit professionellen Produktbildern mehr zu verkaufen.</p>
+      <p>Von praktischen Anleitungen über Kostenübersichten bis hin zu detaillierten Vergleichen — wir decken jeden Aspekt der Produktfotografie ab, basierend auf über 10 Jahren Erfahrung in der Branche.</p>
+
+      <h2>Vladimir Kocian — Gründer & Fotograf</h2>
+      <p>Hinter diesem Wissensportal steht <strong>Vladimir Kocian</strong>, ein erfahrener Premium B2B-Fotograf mit Sitz in Wien. Mit über einem Jahrzehnt Erfahrung in der professionellen Produktfotografie hat er für internationale Marken wie <strong>GANT</strong> gearbeitet und Tausende von Produkten für E-Commerce, Kataloge und Werbekampagnen fotografiert.</p>
+
+      <h3>Expertise</h3>
+      <ul>
+        <li><strong>Produktfotografie:</strong> E-Commerce, Freisteller, Lifestyle, 360°-Ansichten</li>
+        <li><strong>Modefotografie:</strong> Lookbooks, Kampagnen, Ghost Mannequin</li>
+        <li><strong>Art Direction:</strong> Visuelle Konzepte, Moodboards, Styling</li>
+        <li><strong>Post-Produktion:</strong> Professionelle Retusche, Farbmanagement</li>
+        <li><strong>Kapazität:</strong> Bis zu 5.000 Produkte pro Projekt</li>
+      </ul>
+
+      <h3>Standorte</h3>
+      <p>Vladimir arbeitet primär in <strong>Wien (Österreich)</strong> und <strong>Bratislava (Slowakei)</strong>, ist aber für internationale Projekte weltweit verfügbar.</p>
+
+      <h3>Sprachen</h3>
+      <p>Deutsch (fließend), Englisch (fließend), Slowakisch (Muttersprache)</p>
+
+      <h2>Warum dieses Portal?</h2>
+      <p>Viele Unternehmen unterschätzen die Wirkung professioneller Produktbilder auf ihre Conversion Rate, Retourenquote und Markenwahrnehmung. Mit diesem Portal möchten wir:</p>
+      <ul>
+        <li>Transparenz über Kosten und Prozesse schaffen</li>
+        <li>Praktische Tipps für bessere Produktbilder vermitteln</li>
+        <li>Unternehmen bei der Entscheidung zwischen DIY und professionellem Studio unterstützen</li>
+        <li>Aktuelle Trends und Technologien in der Produktfotografie vorstellen</li>
+      </ul>
+    </div>
+
+    <div class="mt-12 rounded-2xl border border-amber-500/20 bg-amber-500/5 p-8 text-center">
+      <h3 class="text-xl font-bold text-white font-heading mb-2">Portfolio & Buchung</h3>
+      <p class="text-navy-300 mb-6">Sehen Sie sich das Portfolio an und buchen Sie direkt auf der Hauptwebsite.</p>
+      <a href="https://www.vladimirkocian.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3.5 text-base font-semibold text-navy-950 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20">
+        vladimirkocian.com besuchen
+        <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+      </a>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'Person', name: 'Vladimir Kocian', jobTitle: 'Professional Photographer & Art Director',
+    url: 'https://www.vladimirkocian.com', email: 'kocian@vladimirkocian.com', telephone: '+4366473411300',
+    address: { '@type': 'PostalAddress', addressLocality: 'Wien', addressCountry: 'AT' },
+    sameAs: ['https://www.linkedin.com/in/vladimir-kocian-b5208310/', 'https://www.instagram.com/vladimirkocian/', 'https://produktfotostudio.at'],
+    knowsAbout: ['Produktfotografie', 'Modefotografie', 'E-Commerce Fotografie', 'Art Direction'],
+  })} />
+</BaseLayout>

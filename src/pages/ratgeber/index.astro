@@ -1,0 +1,128 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+let allArticles: any[] = [];
+try {
+  allArticles = await getCollection('ratgeber');
+} catch (e) {
+  allArticles = [];
+}
+
+const sortedArticles = allArticles.sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
+
+const categories = [
+  { id: 'alle', label: 'Alle' },
+  { id: 'produkt-typ', label: 'Produkttypen' },
+  { id: 'technik', label: 'Fototechniken' },
+  { id: 'beleuchtung', label: 'Beleuchtung' },
+  { id: 'plattform', label: 'Plattformen' },
+  { id: 'business', label: 'Business & ROI' },
+  { id: 'post-produktion', label: 'Post-Produktion' },
+  { id: 'lokal', label: 'Lokal' },
+  { id: 'vergleich', label: 'Vergleiche' },
+  { id: 'checklisten', label: 'Checklisten' },
+  { id: 'trends', label: 'Trends' },
+];
+---
+
+<BaseLayout
+  title="Ratgeber – Professionelle Produktfotografie"
+  description="Umfassende Ratgeber und Anleitungen für professionelle Produktfotografie. Von Beleuchtung über Techniken bis hin zu Plattform-Anforderungen."
+  keywords={['Produktfotografie Ratgeber', 'Produktfotos Tipps', 'E-Commerce Fotografie Anleitung']}
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-navy-900 border-b border-navy-800">
+    <div class="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-transparent"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+      <span class="badge badge-amber mb-4">Wissensportal</span>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white font-heading leading-tight mb-4">
+        Ratgeber für <span class="text-gradient">Produktfotografie</span>
+      </h1>
+      <p class="text-lg text-navy-300 max-w-2xl">
+        Praxisnahe Anleitungen, Expertentipps und detaillierte Guides für jeden Aspekt professioneller Produktfotografie.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <!-- Category Filters -->
+    <div class="flex flex-wrap gap-2 mb-10" id="category-filters">
+      {categories.map((cat) => (
+        <button
+          data-category={cat.id}
+          class:list={[
+            'px-4 py-2 rounded-lg text-sm font-medium transition-all border',
+            cat.id === 'alle'
+              ? 'bg-amber-500/10 text-amber-400 border-amber-500/30'
+              : 'bg-navy-800/50 text-navy-400 border-navy-700 hover:text-white hover:border-navy-500',
+          ]}
+        >
+          {cat.label}
+        </button>
+      ))}
+    </div>
+
+    <!-- Articles Grid -->
+    {sortedArticles.length > 0 ? (
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" id="articles-grid">
+        {sortedArticles.map((article) => (
+          <a
+            href={`/ratgeber/${article.id}/`}
+            class="group card-hover rounded-xl border border-navy-700 bg-navy-800/30 p-6 block"
+            data-category={article.data.category}
+          >
+            <span class="badge badge-amber mb-3">{article.data.category}</span>
+            <h2 class="text-lg font-semibold text-white font-heading group-hover:text-amber-400 transition-colors mb-2">
+              {article.data.title}
+            </h2>
+            <p class="text-sm text-navy-400 line-clamp-2 mb-4">{article.data.description}</p>
+            <div class="flex items-center justify-between">
+              <time datetime={article.data.publishDate} class="text-xs text-navy-500">
+                {new Date(article.data.publishDate).toLocaleDateString('de-AT', { year: 'numeric', month: 'short', day: 'numeric' })}
+              </time>
+              <span class="flex items-center gap-1 text-xs text-amber-500 font-medium">
+                Lesen
+                <svg class="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20 rounded-2xl border border-dashed border-navy-700 bg-navy-800/20">
+        <svg class="mx-auto h-12 w-12 text-navy-600 mb-4" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" /></svg>
+        <h3 class="text-lg font-semibold text-white font-heading mb-2">Artikel werden demnächst veröffentlicht</h3>
+        <p class="text-sm text-navy-400 max-w-md mx-auto">Wir arbeiten an umfassenden Ratgebern zu allen Aspekten der Produktfotografie. Schauen Sie bald wieder vorbei!</p>
+      </div>
+    )}
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('#category-filters button');
+      const articles = document.querySelectorAll('#articles-grid a[data-category]');
+
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const category = btn.getAttribute('data-category');
+
+          buttons.forEach((b) => {
+            b.classList.remove('bg-amber-500/10', 'text-amber-400', 'border-amber-500/30');
+            b.classList.add('bg-navy-800/50', 'text-navy-400', 'border-navy-700');
+          });
+          btn.classList.remove('bg-navy-800/50', 'text-navy-400', 'border-navy-700');
+          btn.classList.add('bg-amber-500/10', 'text-amber-400', 'border-amber-500/30');
+
+          articles.forEach((article) => {
+            if (category === 'alle' || article.getAttribute('data-category') === category) {
+              (article as HTMLElement).style.display = '';
+            } else {
+              (article as HTMLElement).style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</BaseLayout>

@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const faqGroups = [
+  {
+    title: 'Allgemein',
+    questions: [
+      { q: 'Was ist professionelle Produktfotografie?', a: 'Professionelle Produktfotografie umfasst die hochwertige Aufnahme von Produkten für E-Commerce, Kataloge, Werbung und Social Media. Im Gegensatz zu Amateurfotos werden dabei professionelle Beleuchtung, Hintergründe und Post-Produktion eingesetzt, um Produkte optimal zu präsentieren und die Verkaufschancen zu maximieren.' },
+      { q: 'Warum sind professionelle Produktfotos wichtig?', a: 'Studien zeigen, dass professionelle Produktbilder die Conversion Rate um 20–40% steigern und die Retourenquote um bis zu 25% senken können. Im E-Commerce ist das Produktbild oft der erste und einzige Eindruck, den ein Kunde vom Produkt bekommt — es ersetzt die haptische Erfahrung im Geschäft.' },
+      { q: 'Welche Arten von Produktfotografie gibt es?', a: 'Die häufigsten Arten sind: Freisteller (weißer Hintergrund), Lifestyle-Aufnahmen (im Kontext), Ghost Mannequin (Mode ohne sichtbare Puppe), Flat-Lay, 360°-Ansichten, Makro-Detailaufnahmen und Model-Shootings. Jede Art eignet sich für unterschiedliche Produkte und Zwecke.' },
+      { q: 'Wie viele Bilder braucht man pro Produkt?', a: 'Für Webshops empfehlen wir mindestens 3–5 Bilder pro Produkt: eine Hauptansicht, 1–2 zusätzliche Perspektiven, eine Detailaufnahme und optional ein Lifestyle-Bild. Amazon verlangt mindestens 1 Bild, empfiehlt aber 7+ für optimale Conversion.' },
+      { q: 'Was ist der Unterschied zwischen Produktfotografie und Werbefotografie?', a: 'Produktfotografie konzentriert sich auf die realitätsgetreue Darstellung des Produkts (z.B. für Webshops), während Werbefotografie kreativere, emotionalere Inszenierungen für Kampagnen und Anzeigen umfasst. Beide Bereiche können sich überschneiden, z.B. bei Lifestyle-Produktfotos.' },
+    ],
+  },
+  {
+    title: 'Kosten & Preise',
+    questions: [
+      { q: 'Was kostet professionelle Produktfotografie in Wien?', a: 'Die Kosten variieren je nach Umfang und Komplexität. Einzelne Freisteller kosten €15–40, Lifestyle-Aufnahmen €30–80 pro Bild. Ein ganzer Tag (8h) liegt bei €700–1.500 für 30–100 Produkte. Bei Großprojekten (1.000+ Produkte) sinkt der Stückpreis erheblich.' },
+      { q: 'Gibt es Mengenrabatte bei vielen Produkten?', a: 'Ja, bei größeren Stückzahlen wird der Workflow effizienter und der Preis pro Bild sinkt deutlich. Studios wie Vladimir Kocian können bis zu 5.000 Produkte in wenigen Wochen verarbeiten, was den Einzelpreis erheblich reduziert.' },
+      { q: 'Was ist im Preis typischerweise enthalten?', a: 'In der Regel sind im Preis enthalten: Aufnahme im Studio, Grundretusche (Freistellen, Farbkorrektur, Schärfung), Bereitstellung in verschiedenen Formaten (Web, Print) und ein Beratungsgespräch. Aufwendige Compositing-Arbeiten oder Lifestyle-Styling werden oft separat berechnet.' },
+      { q: 'Lohnt sich die Investition in professionelle Produktfotos?', a: 'In den allermeisten Fällen ja. Höhere Conversion Rates (+20–40%), niedrigere Retourenquoten und ein professionelleres Markenimage überwiegen die Investition. Die Amortisation erfolgt typischerweise innerhalb weniger Wochen bis Monate.' },
+      { q: 'Kann ich Produktfotografie auch selbst machen?', a: 'Grundsätzlich ja, aber die Qualität ist in der Regel deutlich niedriger. Sie benötigen Equipment (€500–3.000), müssen Beleuchtung und Bildbearbeitung lernen und der Zeitaufwand ist erheblich. Für Webshops mit vielen Produkten ist ein professionelles Studio effizienter und oft sogar günstiger.' },
+    ],
+  },
+  {
+    title: 'Technik & Ausrüstung',
+    questions: [
+      { q: 'Welche Kamera braucht man für Produktfotografie?', a: 'Für professionelle Produktfotografie empfehlen wir eine Vollformat-DSLR oder spiegellose Kamera (z.B. Canon EOS R5, Sony A7 IV, Nikon Z8). Für Einsteiger reicht auch eine APS-C-Kamera. Wichtiger als die Kamera ist die Beleuchtung und das Objektiv.' },
+      { q: 'Welche Beleuchtung eignet sich am besten?', a: 'Studioblitze mit Softboxen bieten die beste Kontrolle und Konsistenz. Für Einsteiger sind LED-Dauerlichtsets eine gute Alternative, da man das Licht direkt sehen kann. Natürliches Fensterlicht funktioniert für einfache Aufnahmen, ist aber schwer zu kontrollieren.' },
+      { q: 'Was ist der beste Hintergrund für Produktfotos?', a: 'Weiß ist der Standard für E-Commerce (besonders Amazon und Webshops). Für Lifestyle-Aufnahmen eignen sich Holz, Marmor oder farbige Hintergründe. Ein nahtloses Hintergrundpapier (Colorama, Savage) ist die kostengünstigste professionelle Lösung.' },
+      { q: 'Welche Bildformate sind für Webshops optimal?', a: 'JPEG ist der Standard für Webshops. Optimale Größe: 2000–3000px auf der längsten Seite, 72 dpi, sRGB-Farbraum. WebP oder AVIF bieten bessere Kompression bei gleicher Qualität. PNG nur für Freisteller mit Transparenz. Dateigröße: idealerweise unter 500KB.' },
+      { q: 'Was ist der Ghost Mannequin Effekt?', a: 'Beim Ghost Mannequin (auch Invisible Mannequin) wird Kleidung auf einer Schneiderpuppe fotografiert und die Puppe anschließend in der Post-Produktion entfernt. Das Ergebnis: Die Kleidung wirkt dreidimensional und tragbar, ohne dass ein Model sichtbar ist. Beliebt bei Fashion-E-Commerce.' },
+    ],
+  },
+  {
+    title: 'Ablauf & Zusammenarbeit',
+    questions: [
+      { q: 'Wie läuft ein Produktfoto-Shooting ab?', a: 'Der typische Ablauf: 1) Briefing und Anforderungsabstimmung, 2) Konzeptentwicklung und Moodboard, 3) Studiovorbereitung und Lichtsetup, 4) Aufnahmen, 5) Bildauswahl und Post-Produktion, 6) Lieferung der fertigen Bilder per Download-Link. Von der Anfrage bis zur Lieferung dauert es typischerweise 1–3 Wochen.' },
+      { q: 'Wie lange dauert die Bearbeitung?', a: 'Die Bearbeitungszeit hängt vom Umfang ab: Grundretusche (Freistellen, Farbkorrektur) dauert 5–15 Minuten pro Bild. Bei Batch-Verarbeitung von 100+ Bildern sind die fertigen Fotos in der Regel innerhalb von 3–7 Werktagen verfügbar.' },
+      { q: 'Müssen die Produkte zum Studio gebracht werden?', a: 'In den meisten Fällen ja, da ein Studio optimale Bedingungen bietet. Bei großen oder schweren Produkten (z.B. Möbel) kommt der Fotograf mit mobilem Equipment zu Ihnen. Der Versand der Produkte per Post ist bei kleineren Stückzahlen ebenfalls möglich.' },
+      { q: 'In welchen Formaten werden die Bilder geliefert?', a: 'Standardmäßig liefern wir JPEG in hoher Auflösung (300 dpi für Print, optimiert für Web). Auf Wunsch auch TIFF, PNG (mit Transparenz), PSD (mit Ebenen) oder WebP. Wir stellen die Bilder in einem sicheren Download-Ordner zur Verfügung.' },
+      { q: 'Kann man auch nur wenige Produkte fotografieren lassen?', a: 'Ja, auch Kleinaufträge ab 1 Produkt sind möglich, allerdings gibt es oft einen Mindestauftragswert. Für einzelne Produkte empfehlen wir, möglichst viele Ansichten auf einmal zu fotografieren, um das Setup optimal zu nutzen.' },
+    ],
+  },
+];
+
+const allFaqItems = faqGroups.flatMap(g => g.questions);
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: allFaqItems.map(item => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: { '@type': 'Answer', text: item.a },
+  })),
+};
+---
+
+<BaseLayout
+  title="FAQ – Häufig gestellte Fragen"
+  description="Antworten auf die häufigsten Fragen zu professioneller Produktfotografie: Kosten, Ablauf, Technik und mehr."
+  keywords={['Produktfotografie FAQ', 'Produktfotos Fragen', 'Produktfotografie Kosten FAQ']}
+>
+  <section class="relative overflow-hidden bg-navy-900 border-b border-navy-800">
+    <div class="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-transparent"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+      <span class="badge badge-amber mb-4">FAQ</span>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white font-heading leading-tight mb-4">Häufig gestellte <span class="text-gradient">Fragen</span></h1>
+      <p class="text-lg text-navy-300 max-w-2xl">Alles, was Sie über professionelle Produktfotografie wissen müssen — kompakt und verständlich erklärt.</p>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    {faqGroups.map((group) => (
+      <div class="mb-12">
+        <h2 class="text-xl font-bold text-white font-heading mb-6 flex items-center gap-3">
+          <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-500/10 border border-amber-500/20 text-sm text-amber-500 font-bold">{group.title.charAt(0)}</span>
+          {group.title}
+        </h2>
+        <div class="space-y-3">
+          {group.questions.map((item, idx) => (
+            <details class="group rounded-xl border border-navy-700 bg-navy-800/30 overflow-hidden">
+              <summary class="flex cursor-pointer items-center justify-between p-5 text-white font-medium hover:bg-navy-800/50 transition-colors">
+                <span class="pr-4">{item.q}</span>
+                <svg class="h-5 w-5 shrink-0 text-navy-400 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+              </summary>
+              <div class="px-5 pb-5 text-sm text-navy-300 leading-relaxed border-t border-navy-700">
+                <p class="pt-4">{item.a}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <div class="mt-8 rounded-2xl border border-amber-500/20 bg-amber-500/5 p-8 text-center">
+      <h3 class="text-xl font-bold text-white font-heading mb-2">Weitere Fragen?</h3>
+      <p class="text-navy-300 mb-6">Wir beantworten gerne alle Ihre Fragen persönlich.</p>
+      <a href="/kontakt/" class="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3.5 text-base font-semibold text-navy-950 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20">
+        Kontakt aufnehmen
+        <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+      </a>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+</BaseLayout>

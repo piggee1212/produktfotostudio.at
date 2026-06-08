@@ -1,0 +1,650 @@
+[
+  {
+    "slug": "mode-und-bekleidung",
+    "title": "Modefotografie für E-Commerce: Der komplette Leitfaden",
+    "category": "produkt-typ",
+    "keywords": ["Modefotografie", "Fashion E-Commerce", "Bekleidung fotografieren", "Mode Produktfotos", "Kleidung Fotografie"],
+    "description": "Alles über professionelle Modefotografie für E-Commerce: Von Ghost Mannequin bis Model-Shooting, mit Tipps für perfekte Bekleidungsfotos.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "schmuck-und-uhren",
+    "title": "Schmuck & Uhren fotografieren: So gelingen perfekte Aufnahmen",
+    "category": "produkt-typ",
+    "keywords": ["Schmuck fotografieren", "Uhren Produktfotografie", "Jewelry Photography", "Schmuck Fotos", "Edelsteine fotografieren"],
+    "description": "Professionelle Schmuck- und Uhrenfotografie: Reflexionen kontrollieren, Details herausarbeiten und brillante Produktbilder erstellen.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "lebensmittel-fotografie",
+    "title": "Food-Fotografie für Produktverpackungen und Online-Shops",
+    "category": "produkt-typ",
+    "keywords": ["Food Fotografie", "Lebensmittel Produktfotos", "Food Styling", "Essen fotografieren", "Verpackungsfotografie"],
+    "description": "Lebensmittel appetitlich in Szene setzen: Food Styling Tipps, Beleuchtung und Tricks für professionelle Lebensmittel-Produktfotos.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "moebel-und-einrichtung",
+    "title": "Möbelfotografie: Große Produkte professionell fotografieren",
+    "category": "produkt-typ",
+    "keywords": ["Möbel fotografieren", "Einrichtung Produktfotos", "Möbelfotografie", "Interior Fotografie", "Große Produkte fotografieren"],
+    "description": "Möbel und Einrichtungsgegenstände perfekt fotografieren: Studio-Setup, Beleuchtung und Perspektiven für beeindruckende Möbelfotos.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "kosmetik-und-beauty",
+    "title": "Kosmetik-Produktfotografie: Beauty-Produkte perfekt in Szene setzen",
+    "category": "produkt-typ",
+    "keywords": ["Kosmetik Fotografie", "Beauty Produktfotos", "Kosmetikprodukte fotografieren", "Skincare Fotografie", "Makeup Fotos"],
+    "description": "Kosmetik und Beauty-Produkte hochwertig fotografieren: Texturen, Farbtreue und Verpackungsdetails für anspruchsvolle Marken.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "elektronik-und-gadgets",
+    "title": "Elektronik & Gadgets fotografieren: Technik im besten Licht",
+    "category": "produkt-typ",
+    "keywords": ["Elektronik fotografieren", "Gadget Produktfotos", "Technik Fotografie", "Consumer Electronics", "Geräte Produktbilder"],
+    "description": "Elektronik und technische Geräte professionell fotografieren: Reflexionen vermeiden, Details zeigen und Funktionen visualisieren.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "schuhe-fotografieren",
+    "title": "Schuhe fotografieren: Perfekte Produktbilder für den Online-Handel",
+    "category": "produkt-typ",
+    "keywords": ["Schuhe fotografieren", "Schuh-Produktfotos", "Footwear Photography", "Sneaker Fotografie", "Schuhe E-Commerce"],
+    "description": "Schuhe professionell fotografieren: Winkel, Beleuchtung und Styling für perfekte Schuh-Produktbilder im Online-Shop.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "taschen-und-accessoires",
+    "title": "Taschen & Accessoires: Lederwaren und Modeartikel fotografieren",
+    "category": "produkt-typ",
+    "keywords": ["Taschen fotografieren", "Accessoires Produktfotos", "Lederwaren Fotografie", "Handtaschen Fotos", "Modeartikel Bilder"],
+    "description": "Taschen, Gürtel und Accessoires stilsicher fotografieren: Material, Textur und Details für überzeugende Produktbilder.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "sportartikel-fotografie",
+    "title": "Sportartikel-Fotografie: Action und Produkt in einem Bild",
+    "category": "produkt-typ",
+    "keywords": ["Sportartikel fotografieren", "Sport Produktfotos", "Fitness Equipment Fotografie", "Outdoor Ausrüstung Bilder"],
+    "description": "Sportartikel und Fitnessgeräte dynamisch fotografieren: Zwischen Packshot und Lifestyle für aktive Zielgruppen.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "spielzeug-fotografie",
+    "title": "Spielzeug fotografieren: Bunte Produkte richtig in Szene setzen",
+    "category": "produkt-typ",
+    "keywords": ["Spielzeug fotografieren", "Toy Photography", "Kinderspielzeug Fotos", "Spielwaren Produktbilder", "Bunte Produkte"],
+    "description": "Spielzeug und Kinderspielwaren professionell fotografieren: Farben korrekt wiedergeben, Maßstab zeigen und Zielgruppe ansprechen.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "wein-und-spirituosen",
+    "title": "Wein & Spirituosen fotografieren: Flaschen und Gläser im Studio",
+    "category": "produkt-typ",
+    "keywords": ["Wein fotografieren", "Spirituosen Produktfotos", "Flaschen Fotografie", "Getränke Fotos", "Glasflasche fotografieren"],
+    "description": "Wein, Spirituosen und Getränke professionell fotografieren: Glas, Reflexionen und Etiketten perfekt einfangen.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "industrieprodukte",
+    "title": "Industrieprodukte fotografieren: Technische Produkte für B2B",
+    "category": "produkt-typ",
+    "keywords": ["Industriefotografie", "B2B Produktfotos", "Technische Produkte fotografieren", "Industrieprodukt Bilder", "Maschinenfotografie"],
+    "description": "Industrieprodukte und technische Bauteile professionell fotografieren: Maßstab, Details und technische Genauigkeit für B2B-Kataloge.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "medizinprodukte",
+    "title": "Medizinprodukte fotografieren: Anforderungen und Best Practices",
+    "category": "produkt-typ",
+    "keywords": ["Medizinprodukte Fotografie", "Medical Device Photography", "Gesundheitsprodukte Fotos", "Pharma Produktbilder"],
+    "description": "Medizinprodukte und Gesundheitsartikel professionell fotografieren: Regulatorische Anforderungen, sterile Darstellung und Vertrauensaufbau.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "brillen-fotografieren",
+    "title": "Brillen fotografieren: Transparente Produkte meisterhaft ablichten",
+    "category": "produkt-typ",
+    "keywords": ["Brillen fotografieren", "Eyewear Photography", "Sonnenbrillen Produktfotos", "Optiker Bilder", "Transparente Objekte"],
+    "description": "Brillen und Sonnenbrillen professionell fotografieren: Transparenz, Reflexionen und Gläser perfekt darstellen.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "freisteller-weisser-hintergrund",
+    "title": "Freisteller auf weißem Hintergrund: Die Königsdisziplin der Produktfotografie",
+    "category": "technik",
+    "keywords": ["Freisteller Produktfoto", "Weißer Hintergrund Fotografie", "Produktfreisteller", "White Background", "E-Commerce Freisteller"],
+    "description": "Perfekte Freisteller auf weißem Hintergrund erstellen: Beleuchtungstechnik, Kameraeinstellungen und Nachbearbeitung für makellose Produktfotos.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "ghost-mannequin-effekt",
+    "title": "Ghost Mannequin Effekt: Kleidung unsichtbar präsentieren",
+    "category": "technik",
+    "keywords": ["Ghost Mannequin", "Invisible Mannequin", "Hohlkörper Effekt", "Kleidung Mannequin Fotografie", "Neck Joint"],
+    "description": "Den Ghost Mannequin Effekt professionell umsetzen: Aufnahmetechnik, Compositing und Nachbearbeitung für dreidimensionale Kleidungspräsentation.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "flat-lay-fotografie",
+    "title": "Flat Lay Fotografie: Produkte von oben perfekt arrangieren",
+    "category": "technik",
+    "keywords": ["Flat Lay Fotografie", "Knolling", "Vogelperspektive Produkte", "Overhead Fotografie", "Flat Lay Styling"],
+    "description": "Flat Lay Fotografie meistern: Komposition, Styling und Beleuchtung für ansprechende Overhead-Produktaufnahmen.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "lifestyle-produktfotos",
+    "title": "Lifestyle-Produktfotografie: Produkte im Alltag inszenieren",
+    "category": "technik",
+    "keywords": ["Lifestyle Produktfotos", "Produkt Lifestyle Szenen", "In-Situ Fotografie", "Kontextuelle Produktbilder", "Stimmungsbilder"],
+    "description": "Lifestyle-Produktfotos, die verkaufen: Produkte authentisch in Alltagssituationen inszenieren und emotionale Verbindungen schaffen.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "360-grad-produktfotos",
+    "title": "360-Grad-Produktfotografie: Interaktive Rundum-Ansichten erstellen",
+    "category": "technik",
+    "keywords": ["360 Grad Produktfotos", "Drehbare Produktbilder", "Spin Photography", "360 Ansicht E-Commerce", "Drehteller Fotografie"],
+    "description": "360-Grad-Produktbilder erstellen: Equipment, Aufnahmetechnik und Software für interaktive Produktpräsentationen im Online-Shop.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "makrofotografie-details",
+    "title": "Makrofotografie für Produktdetails: Nahaufnahmen, die überzeugen",
+    "category": "technik",
+    "keywords": ["Makrofotografie Produkte", "Produktdetails fotografieren", "Close-Up Fotografie", "Detail-Aufnahmen", "Texturen fotografieren"],
+    "description": "Makrofotografie für Produktdetails: Objektive, Beleuchtung und Techniken für gestochen scharfe Nahaufnahmen von Materialien und Texturen.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "model-shooting-produkte",
+    "title": "Model-Shooting für Produktfotografie: Mensch und Produkt vereinen",
+    "category": "technik",
+    "keywords": ["Model Shooting Produkte", "Produkte mit Models", "Lookbook Fotografie", "Fashion Shooting", "Werbefotografie Models"],
+    "description": "Model-Shootings für Produktfotografie planen und umsetzen: Casting, Styling, Posen und Zusammenarbeit für überzeugende Werbefotos.",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "kreative-produktinszenierung",
+    "title": "Kreative Produktinszenierung: Außergewöhnliche Bildkonzepte umsetzen",
+    "category": "technik",
+    "keywords": ["Kreative Produktfotografie", "Produktinszenierung", "Konzeptuelle Fotografie", "Werbung Produktbilder", "Art Direction"],
+    "description": "Kreative Produktinszenierungen entwickeln: Ungewöhnliche Perspektiven, Requisiten und Konzepte für Bilder, die im Gedächtnis bleiben.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "packshot-fotografie",
+    "title": "Packshot-Fotografie: Verpackungen optimal fotografieren",
+    "category": "technik",
+    "keywords": ["Packshot Fotografie", "Verpackung fotografieren", "Produktverpackung Bilder", "Pack Shot", "Packaging Photography"],
+    "description": "Packshot-Fotografie meistern: Verpackungen, Etiketten und Produktboxen perfekt ausgeleuchtet und scharf abgelichtet.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "gruppenfotos-produktsets",
+    "title": "Gruppenfotos und Produktsets: Mehrere Produkte harmonisch arrangieren",
+    "category": "technik",
+    "keywords": ["Gruppenfoto Produkte", "Produktset Fotografie", "Mehrere Produkte fotografieren", "Produktgruppe Bild", "Set-Aufnahmen"],
+    "description": "Mehrere Produkte in einem Bild: Anordnung, Hierarchie und Farbharmonie für überzeugende Gruppenaufnahmen und Set-Fotos.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "beleuchtung-grundlagen",
+    "title": "Beleuchtung in der Produktfotografie: Der ultimative Grundlagen-Guide",
+    "category": "beleuchtung",
+    "keywords": ["Produktfotografie Beleuchtung", "Licht Setup Produkte", "Studioblitz Produktfotos", "Lichtführung", "Beleuchtungstechnik"],
+    "description": "Beleuchtung für Produktfotografie von A bis Z: Lichtquellen, Lichtformer, Aufstellungen und Techniken für jedes Budget.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "softbox-vs-beauty-dish",
+    "title": "Softbox vs. Beauty Dish: Welcher Lichtformer für welches Produkt?",
+    "category": "beleuchtung",
+    "keywords": ["Softbox vs Beauty Dish", "Lichtformer Vergleich", "Produktfotografie Lichtformer", "Octabox", "Strip Light"],
+    "description": "Softbox, Beauty Dish, Octabox und mehr: Lichtformer im Vergleich mit Beispielbildern und Empfehlungen für verschiedene Produkttypen.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "lichtsetup-glas-reflexionen",
+    "title": "Glas & reflektierende Oberflächen fotografieren: Lichtsetup-Tipps",
+    "category": "beleuchtung",
+    "keywords": ["Glas fotografieren", "Reflexionen Produktfoto", "Reflektierende Oberflächen", "Chrom fotografieren", "Spiegelungen vermeiden"],
+    "description": "Glas, Chrom und glänzende Oberflächen professionell fotografieren: Lichtsetups und Techniken zur Kontrolle von Reflexionen und Spiegelungen.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "natuerliches-licht-produktfotos",
+    "title": "Produktfotografie mit natürlichem Licht: Ohne Studio professionell fotografieren",
+    "category": "beleuchtung",
+    "keywords": ["Natürliches Licht Produktfotos", "Tageslicht Fotografie", "Produktfotos ohne Blitz", "Available Light Produkte", "Fensterlicht"],
+    "description": "Professionelle Produktfotos mit natürlichem Licht: Fensterlicht nutzen, Diffusoren einsetzen und auch ohne Studio überzeugende Ergebnisse erzielen.",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "hintergrund-auswahl",
+    "title": "Der richtige Hintergrund für Produktfotos: Farben, Materialien und Trends",
+    "category": "beleuchtung",
+    "keywords": ["Hintergrund Produktfotografie", "Produktfoto Hintergrund", "Backdrop Produkte", "Farbiger Hintergrund", "Textur Hintergrund"],
+    "description": "Hintergrundwahl für Produktfotos: Von reinem Weiß bis texturierten Oberflächen – welcher Hintergrund zu welchem Produkt und welcher Marke passt.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "diy-fotostudio-einrichten",
+    "title": "DIY Fotostudio einrichten: Professionelle Produktfotos zu Hause",
+    "category": "beleuchtung",
+    "keywords": ["DIY Fotostudio", "Fotostudio einrichten", "Home Studio Produktfotos", "Fotostudio Zuhause", "Günstiges Fotostudio"],
+    "description": "Ein DIY Fotostudio für Produktfotografie einrichten: Equipment-Liste, Raumplanung und Setup-Tipps für professionelle Ergebnisse mit kleinem Budget.",
+    "linkTo": "https://www.vladimirkocian.com/de/contact/",
+    "status": "pending"
+  },
+  {
+    "slug": "fototisch-aufbau",
+    "title": "Fototisch für Produktfotografie: Aufbau, Typen und Empfehlungen",
+    "category": "beleuchtung",
+    "keywords": ["Fototisch Produktfotografie", "Aufnahmetisch", "Shooting Table", "Lichtzelt vs Fototisch", "Produkttisch"],
+    "description": "Den perfekten Fototisch für Produktfotografie finden und aufbauen: Vergleich von Aufnahmetischen, Lichtkästen und DIY-Lösungen.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "amazon-produktbilder",
+    "title": "Amazon Produktbilder: Alle Anforderungen und Optimierungstipps 2025",
+    "category": "plattform",
+    "keywords": ["Amazon Produktbilder", "Amazon Listing Fotos", "Amazon Bildanforderungen", "A+ Content Bilder", "Amazon FBA Fotos"],
+    "description": "Amazon Produktbilder-Guide: Alle technischen Anforderungen, Best Practices für Hauptbilder und A+ Content sowie Tipps zur Conversion-Optimierung.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "ebay-produktfotos",
+    "title": "eBay Produktfotos: Bilder, die zum Kauf überzeugen",
+    "category": "plattform",
+    "keywords": ["eBay Produktfotos", "eBay Listing Bilder", "eBay Bildgröße", "eBay Fotografie Tipps", "Auktion Fotos"],
+    "description": "Optimale Produktfotos für eBay-Angebote: Bildanforderungen, Galerie-Optimierung und Tipps für höhere Verkaufspreise bei Auktionen.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "shopify-produktbilder",
+    "title": "Shopify Produktbilder: Optimale Fotos für deinen Online-Shop",
+    "category": "plattform",
+    "keywords": ["Shopify Produktbilder", "Shopify Fotos Größe", "Online-Shop Produktfotos", "Shopify Bildoptimierung", "E-Commerce Shop Bilder"],
+    "description": "Produktbilder für Shopify perfekt optimieren: Bildgrößen, Formate, Alt-Texte und Theme-spezifische Anforderungen für schnellere Ladezeiten.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "zalando-partner-bilder",
+    "title": "Zalando Partner-Programm: Bildrichtlinien und Produktfoto-Anforderungen",
+    "category": "plattform",
+    "keywords": ["Zalando Produktbilder", "Zalando Partner Bilder", "Zalando Bildrichtlinien", "Zalando ZMS", "Fashion Marketplace Fotos"],
+    "description": "Alle Zalando-Bildanforderungen im Detail: Technische Spezifikationen, Model-Shots, Freisteller und Qualitätsstandards für das Partner-Programm.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "etsy-produktfotos",
+    "title": "Etsy Produktfotos: Handgemachtes authentisch präsentieren",
+    "category": "plattform",
+    "keywords": ["Etsy Produktfotos", "Etsy Listing Bilder", "Handgemachtes fotografieren", "Etsy Fotografie Tipps", "Handcraft Photography"],
+    "description": "Etsy Produktfotos, die verkaufen: Authentische Lifestyle-Bilder, SEO-optimierte Alt-Texte und die perfekte Bildanzahl für Handmade-Listings.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "woocommerce-bilder",
+    "title": "WooCommerce Produktbilder: Technische Optimierung für WordPress-Shops",
+    "category": "plattform",
+    "keywords": ["WooCommerce Produktbilder", "WordPress Shop Fotos", "WooCommerce Bildgrößen", "WordPress E-Commerce Bilder", "WooCommerce Gallery"],
+    "description": "WooCommerce Produktbilder perfekt einrichten: Bildgrößen, Zoom-Funktion, Galerie-Einstellungen und Performance-Optimierung für WordPress-Shops.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "instagram-shopping-fotos",
+    "title": "Instagram Shopping Fotos: Produktbilder für Social Commerce optimieren",
+    "category": "plattform",
+    "keywords": ["Instagram Shopping Fotos", "Instagram Produktbilder", "Social Commerce Fotos", "Instagram Shop Bilder", "Shoppable Posts"],
+    "description": "Produktfotos für Instagram Shopping erstellen: Formate, Ästhetik, Tagging-Strategien und Best Practices für Social Commerce auf Instagram.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "google-shopping-bilder",
+    "title": "Google Shopping Bilder: Produktfotos für mehr Klicks und Conversions",
+    "category": "plattform",
+    "keywords": ["Google Shopping Bilder", "Google Merchant Center Fotos", "PLA Produktbilder", "Google Ads Produktfotos", "Shopping Feed Bilder"],
+    "description": "Google Shopping Produktbilder optimieren: Technische Anforderungen des Merchant Centers, Bildqualität und Strategien für höhere Klickraten.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "conversion-rate-produktbilder",
+    "title": "Wie Produktbilder die Conversion Rate um bis zu 30% steigern können",
+    "category": "business",
+    "keywords": ["Conversion Rate Produktbilder", "Verkaufsförderung Fotos", "E-Commerce Conversion", "Produktfotos Umsatz", "Kaufentscheidung Bilder"],
+    "description": "Datenbasierte Erkenntnisse: Wie professionelle Produktfotos die Conversion Rate im E-Commerce nachweislich steigern und welche Bildtypen am besten wirken.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "ab-testing-produktfotos",
+    "title": "A/B-Testing von Produktfotos: Datengetrieben zum besten Bild",
+    "category": "business",
+    "keywords": ["A/B Testing Produktfotos", "Produktbild Optimierung", "Split Test Fotos", "Datenbasierte Bildwahl", "Conversion Optimierung"],
+    "description": "A/B-Testing für Produktbilder: Methoden, Tools und Praxisbeispiele, wie du durch systematisches Testen die verkaufsstärksten Bilder identifizierst.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "retourenquote-senken",
+    "title": "Retourenquote senken durch bessere Produktfotos: So geht's",
+    "category": "business",
+    "keywords": ["Retourenquote senken", "Retouren Produktfotos", "Rücksendungen vermeiden", "E-Commerce Retouren", "Produktdarstellung Retouren"],
+    "description": "Weniger Retouren durch bessere Produktbilder: Welche Bildtypen falsche Erwartungen vermeiden und die Retourenquote nachweislich senken.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "roi-professionelle-produktfotos",
+    "title": "ROI von professioneller Produktfotografie: Zahlt sich die Investition aus?",
+    "category": "business",
+    "keywords": ["ROI Produktfotografie", "Kosten Nutzen Produktfotos", "Investition Produktbilder", "Professionelle Fotos Kosten", "Produktfotografie Budget"],
+    "description": "ROI-Berechnung für professionelle Produktfotografie: Kosten, Umsatzsteigerung und langfristiger Wert hochwertiger Produktbilder mit konkreten Zahlen.",
+    "linkTo": "https://www.vladimirkocian.com/de/contact/",
+    "status": "pending"
+  },
+  {
+    "slug": "produktfotos-fuer-startups",
+    "title": "Produktfotografie für Startups: Maximale Wirkung mit kleinem Budget",
+    "category": "business",
+    "keywords": ["Produktfotos Startups", "Günstige Produktfotografie", "Startup E-Commerce Bilder", "Budget Produktfotos", "Bootstrap Fotografie"],
+    "description": "Produktfotografie für Startups und Gründer: Priorisierung, Budget-Strategien und Qualitätsstufen für den optimalen Einstieg in den E-Commerce.",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "markenbildung-visuell",
+    "title": "Visuelle Markenbildung durch konsistente Produktfotografie",
+    "category": "business",
+    "keywords": ["Visuelle Markenbildung", "Brand Photography", "Konsistente Produktbilder", "Markenstrategie Fotos", "Corporate Photography"],
+    "description": "Durch konsistente Produktfotografie eine starke Markenidentität aufbauen: Styleguides, Farb- und Stilkonzepte für wiedererkennbare Markenbilder.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "briefing-erstellen",
+    "title": "Das perfekte Fotografie-Briefing: So kommunizierst du deine Vision",
+    "category": "business",
+    "keywords": ["Fotografie Briefing", "Shooting Briefing erstellen", "Produktfoto Briefing Vorlage", "Fotograf Briefing", "Kreativ-Briefing"],
+    "description": "Ein professionelles Fotografie-Briefing erstellen: Vorlagen, Checklisten und Tipps für die effektive Kommunikation mit deinem Produktfotografen.",
+    "linkTo": "https://www.vladimirkocian.com/de/contact/",
+    "status": "pending"
+  },
+  {
+    "slug": "retusche-grundlagen",
+    "title": "Bildretusche für Produktfotos: Grundlagen und Profi-Techniken",
+    "category": "post-produktion",
+    "keywords": ["Produktfoto Retusche", "Bildbearbeitung Produkte", "Photoshop Produktfotos", "Retusche Techniken", "Nachbearbeitung"],
+    "description": "Produktfoto-Retusche von A bis Z: Grundlegende und fortgeschrittene Techniken in Photoshop und Lightroom für makellose Produktbilder.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "farbtreue-kalibrierung",
+    "title": "Farbtreue und Monitor-Kalibrierung für Produktfotografie",
+    "category": "post-produktion",
+    "keywords": ["Farbtreue Produktfotos", "Monitor Kalibrierung", "Farbgenauigkeit", "ICC Profile", "Farbmanagement Fotografie"],
+    "description": "Farbtreue in der Produktfotografie sicherstellen: Monitor-Kalibrierung, Farbprofile und Workflows für konsistente Farbwiedergabe in Print und Web.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "bildformate-webshop",
+    "title": "Bildformate und -größen für Online-Shops: JPEG, PNG, WebP oder AVIF?",
+    "category": "post-produktion",
+    "keywords": ["Bildformate Webshop", "JPEG vs PNG vs WebP", "Produktbild Größe", "Bildkomprimierung", "AVIF Format E-Commerce"],
+    "description": "Das richtige Bildformat für Online-Shop-Produktbilder: Vergleich von JPEG, PNG, WebP und AVIF mit Empfehlungen für optimale Qualität und Ladezeit.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "hintergrund-entfernen",
+    "title": "Hintergrund entfernen bei Produktfotos: Tools und Techniken im Vergleich",
+    "category": "post-produktion",
+    "keywords": ["Hintergrund entfernen", "Freistellen Photoshop", "Background Removal", "Produktbild Freisteller", "KI Hintergrund entfernen"],
+    "description": "Hintergrund bei Produktfotos entfernen: Manuelle Techniken in Photoshop, KI-Tools und Online-Dienste im Vergleich mit Qualitätsbewertung.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "batch-bearbeitung",
+    "title": "Batch-Bearbeitung: Hunderte Produktfotos effizient bearbeiten",
+    "category": "post-produktion",
+    "keywords": ["Batch Bearbeitung Produktfotos", "Massenbearbeitung Bilder", "Lightroom Batch", "Photoshop Aktionen", "Automatisierung Bildbearbeitung"],
+    "description": "Batch-Bearbeitung für Produktfotografie: Workflows, Tools und Automatisierungen für die effiziente Bearbeitung großer Bildmengen.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "farbmanagement-druck-web",
+    "title": "Farbmanagement für Print und Web: Produktbilder überall konsistent",
+    "category": "post-produktion",
+    "keywords": ["Farbmanagement Print Web", "CMYK vs RGB", "Druckfarben Produktfotos", "Farbkonsistenz", "Print Produktbilder"],
+    "description": "Farbmanagement zwischen Print und Web: Wie Produktbilder auf jedem Medium und jedem Bildschirm konsistent und farbecht aussehen.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "ki-tools-produktfotografie",
+    "title": "KI-Tools in der Produktfotografie: Revolution oder Spielerei?",
+    "category": "post-produktion",
+    "keywords": ["KI Produktfotografie", "AI Photography Tools", "Künstliche Intelligenz Fotos", "KI Bildbearbeitung", "AI Generated Product Photos"],
+    "description": "KI-Tools für Produktfotografie im Test: Von automatischer Retusche bis KI-generierten Hintergründen – was funktioniert und was nicht?",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "produktfotograf-wien",
+    "title": "Produktfotograf in Wien finden: Preise, Studios und Tipps zur Auswahl",
+    "category": "lokal",
+    "keywords": ["Produktfotograf Wien", "Fotostudio Wien", "Wien Produktfotografie", "Fotograf Wien Preise", "Produktfotos Wien"],
+    "description": "Den richtigen Produktfotografen in Wien finden: Worauf achten bei der Auswahl, aktuelle Preise und die besten Studios für Produktfotografie in Wien.",
+    "linkTo": "https://www.vladimirkocian.com/de/contact/",
+    "status": "pending"
+  },
+  {
+    "slug": "produktfotografie-oesterreich",
+    "title": "Produktfotografie in Österreich: Marktüberblick und regionale Besonderheiten",
+    "category": "lokal",
+    "keywords": ["Produktfotografie Österreich", "Fotograf Österreich", "Produktfotos Österreich", "Fotostudio Österreich", "E-Commerce Fotografie AT"],
+    "description": "Produktfotografie in Österreich: Regionale Anbieter, Preisniveau, Branchentrends und was den österreichischen Markt von anderen unterscheidet.",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "fotostudio-mieten-wien",
+    "title": "Fotostudio mieten in Wien: Die besten Mietstudios für Produktfotografie",
+    "category": "lokal",
+    "keywords": ["Fotostudio mieten Wien", "Mietstudio Wien", "Tagesstudio Wien", "Studio Vermietung Wien", "Produktfoto Studio Wien"],
+    "description": "Fotostudio in Wien mieten für Produktfotografie: Vergleich der besten Mietstudios mit Preisen, Equipment und Ausstattungsdetails.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "produktfotograf-kosten-vergleich",
+    "title": "Was kostet Produktfotografie? Preisvergleich und Kostenfaktoren 2025",
+    "category": "lokal",
+    "keywords": ["Produktfotografie Kosten", "Preise Produktfotos", "Fotograf Kosten pro Bild", "Produktfotografie Preisliste", "Stundensatz Fotograf"],
+    "description": "Aktuelle Kosten für Produktfotografie in Österreich: Preismodelle, Kostenfaktoren und ein realistischer Preisvergleich für verschiedene Leistungspakete.",
+    "linkTo": "https://www.vladimirkocian.com/de/contact/",
+    "status": "pending"
+  },
+  {
+    "slug": "studio-vs-diy",
+    "title": "Professionelles Studio vs. DIY: Wann lohnt sich was?",
+    "category": "vergleich",
+    "keywords": ["Studio vs DIY Produktfotos", "Professionell vs Selbst fotografieren", "Produktfotografie selbst machen", "DIY vs Fotograf", "Selber fotografieren"],
+    "description": "Professionelles Fotostudio oder DIY? Ein ehrlicher Vergleich mit Entscheidungshilfe basierend auf Budget, Produktanzahl und Qualitätsanspruch.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "fotograf-vs-ki-generiert",
+    "title": "Echter Fotograf vs. KI-generierte Produktbilder: Der große Vergleich",
+    "category": "vergleich",
+    "keywords": ["Fotograf vs KI", "KI Produktbilder vs Fotografie", "AI generierte Fotos", "Midjourney Produktfotos", "Echter Fotograf KI"],
+    "description": "KI-generierte vs. echte Produktfotos: Qualität, Kosten, Rechtslage und Vertrauenswürdigkeit – ein umfassender Vergleich mit Zukunftsausblick.",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "inhouse-vs-agentur",
+    "title": "Inhouse-Fotografie vs. Agentur: Die richtige Strategie für dein Unternehmen",
+    "category": "vergleich",
+    "keywords": ["Inhouse Fotografie vs Agentur", "Eigener Fotograf Unternehmen", "Fotografie Agentur", "Inhouse Studio", "Outsourcing Produktfotos"],
+    "description": "Inhouse-Fototeam oder externe Agentur? Kosten-Nutzen-Analyse, Vor- und Nachteile sowie Entscheidungskriterien für Unternehmen jeder Größe.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "dslr-vs-smartphone",
+    "title": "DSLR vs. Smartphone: Reicht das Handy für Produktfotos?",
+    "category": "vergleich",
+    "keywords": ["DSLR vs Smartphone Produktfotos", "Handy Produktfotografie", "iPhone Produktfotos", "Kamera vs Handy", "Smartphone Fotografie Produkte"],
+    "description": "DSLR oder Smartphone für Produktfotografie? Bildqualität, Flexibilität und Praxis-Ergebnisse im direkten Vergleich mit konkreten Beispielfotos.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "einzelbilder-vs-video",
+    "title": "Produktfotos vs. Produktvideos: Was bringt mehr Umsatz?",
+    "category": "vergleich",
+    "keywords": ["Produktfotos vs Video", "Produktvideo E-Commerce", "Bilder oder Video", "Video Commerce", "Produktpräsentation Video"],
+    "description": "Einzelbilder oder Videos für Produktpräsentationen? ROI-Vergleich, Plattform-Anforderungen und die optimale Mischung für maximale Conversion.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "checkliste-fotoshooting",
+    "title": "Checkliste Produkt-Fotoshooting: Von der Planung bis zur Nachbearbeitung",
+    "category": "checklisten",
+    "keywords": ["Checkliste Fotoshooting", "Produkt Shooting Vorbereitung", "Fotoshooting Planung", "Shooting Checkliste", "Vorbereitung Produktfotos"],
+    "description": "Die ultimative Checkliste für dein Produkt-Fotoshooting: Vorbereitung, Durchführung und Nachbearbeitung Schritt für Schritt zum Abhaken.",
+    "linkTo": "https://www.vladimirkocian.com/de/contact/",
+    "status": "pending"
+  },
+  {
+    "slug": "checkliste-webshop-bilder",
+    "title": "Checkliste Webshop-Bilder: Alle Anforderungen auf einen Blick",
+    "category": "checklisten",
+    "keywords": ["Checkliste Webshop Bilder", "E-Commerce Bild Checkliste", "Online-Shop Bilder Anforderungen", "Produktbild Qualitätskontrolle"],
+    "description": "Checkliste für Webshop-Produktbilder: Technische Anforderungen, Qualitätsstandards und SEO-Optimierung für alle gängigen E-Commerce-Plattformen.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "workflow-produktfotografie",
+    "title": "Workflow Produktfotografie: Vom Shooting bis zum fertigen Bild",
+    "category": "checklisten",
+    "keywords": ["Workflow Produktfotografie", "Produktfoto Workflow", "Fotografie Prozess", "Effizienter Foto-Workflow", "Bildproduktion Ablauf"],
+    "description": "Effizienter Workflow für Produktfotografie: Schritt-für-Schritt-Anleitung vom Wareneingang über das Shooting bis zur Bildauslieferung an den Kunden.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "fehler-produktfotografie",
+    "title": "Die 15 häufigsten Fehler in der Produktfotografie – und wie du sie vermeidest",
+    "category": "checklisten",
+    "keywords": ["Fehler Produktfotografie", "Produktfoto Fehler", "Häufige Fehler Fotografie", "Produktbilder verbessern", "Anfängerfehler Fotografie"],
+    "description": "Die 15 häufigsten Fehler in der Produktfotografie identifizieren und vermeiden: Von falscher Beleuchtung bis zur mangelhaften Nachbearbeitung.",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "equipment-einsteiger",
+    "title": "Equipment-Guide für Produktfotografie-Einsteiger: Was du wirklich brauchst",
+    "category": "checklisten",
+    "keywords": ["Equipment Produktfotografie", "Kamera für Produktfotos", "Produktfotografie Ausrüstung", "Einsteiger Equipment", "Fotografie Grundausstattung"],
+    "description": "Equipment-Guide für Produktfotografie-Einsteiger: Die wichtigste Ausrüstung mit konkreten Empfehlungen und Kaufberatung für jedes Budget.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "trends-produktfotografie-2025",
+    "title": "Produktfotografie-Trends 2025: Was die Branche bewegt",
+    "category": "trends",
+    "keywords": ["Produktfotografie Trends 2025", "Fotografie Trends", "E-Commerce Bilder Trends", "Zukunft Produktfotografie", "Neue Technologien Fotografie"],
+    "description": "Die wichtigsten Trends in der Produktfotografie 2025: KI-Unterstützung, Nachhaltigkeit, immersive Formate und was auf Online-Händler zukommt.",
+    "linkTo": "https://www.vladimirkocian.com/de/product-photography/",
+    "status": "pending"
+  },
+  {
+    "slug": "3d-rendering-vs-fotografie",
+    "title": "3D-Rendering vs. klassische Produktfotografie: Wann lohnt sich CGI?",
+    "category": "trends",
+    "keywords": ["3D Rendering vs Fotografie", "CGI Produktbilder", "3D Visualisierung Produkte", "Computer Generated Imagery", "Rendering vs Foto"],
+    "description": "3D-Rendering oder klassische Fotografie für Produktbilder? Kosten, Qualität, Flexibilität und Einsatzbereiche im detaillierten Vergleich.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  },
+  {
+    "slug": "augmented-reality-produktbilder",
+    "title": "Augmented Reality Produktbilder: Die Zukunft des Online-Shoppings",
+    "category": "trends",
+    "keywords": ["Augmented Reality Produkte", "AR Produktbilder", "AR E-Commerce", "Virtuelle Produktansicht", "AR Shopping Erlebnis"],
+    "description": "Augmented Reality in der Produktpräsentation: Technologie, Umsetzung und Praxisbeispiele für immersive Produkterlebnisse im E-Commerce.",
+    "linkTo": "https://www.vladimirkocian.com/de/portfolio/",
+    "status": "pending"
+  },
+  {
+    "slug": "nachhaltigkeit-fotoproduktion",
+    "title": "Nachhaltige Produktfotografie: Umweltbewusst produzieren",
+    "category": "trends",
+    "keywords": ["Nachhaltige Produktfotografie", "Green Photography", "Umweltbewusste Fotoproduktion", "Nachhaltigkeit Fotostudio", "Ökologische Fotografie"],
+    "description": "Nachhaltigkeit in der Produktfotografie: Ressourcenschonung, umweltbewusste Workflows und wie Studios ihren ökologischen Fußabdruck reduzieren.",
+    "linkTo": "https://www.vladimirkocian.com/de/about/",
+    "status": "pending"
+  },
+  {
+    "slug": "video-commerce-trends",
+    "title": "Video Commerce: Warum Produktvideos das nächste große Ding sind",
+    "category": "trends",
+    "keywords": ["Video Commerce", "Produktvideos E-Commerce", "Shoppable Video", "Live Shopping", "Video Content Produkte"],
+    "description": "Video Commerce im Aufwind: Formate, Plattformen und Strategien für Produktvideos, die den E-Commerce revolutionieren und Conversion Rates steigern.",
+    "linkTo": "https://www.vladimirkocian.com/de/services/",
+    "status": "pending"
+  }
+]
