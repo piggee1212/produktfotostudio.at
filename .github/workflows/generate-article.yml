@@ -47,13 +47,8 @@ jobs:
           git push
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 21
-          protocol: ftps
-          local-dir: ./dist/
-          server-dir: produktfotostudio.at/web/
-          dangerous-clean-slate: false
+        run: |
+          sudo apt-get install -y lftp
+          lftp -u "${{ secrets.FTP_USERNAME }}","${{ secrets.FTP_PASSWORD }}" \
+            -e "set ftp:ssl-force false; set ftp:ssl-protect-data false; set net:max-retries 3; set net:reconnect-interval-base 5; mirror -R --delete --verbose --no-perms dist/ produktfotostudio.at/web/; quit" \
+            ftp://${{ secrets.FTP_SERVER }}
