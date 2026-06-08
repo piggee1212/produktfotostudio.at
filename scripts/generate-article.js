@@ -225,9 +225,28 @@ async function main() {
   });
 
   console.log('🤖 Calling Gemini API...');
-  const result = await model.generateContent(prompt);
-  const response = result.response;
-  const fullText = response.text();
+  let fullText = '';
+  let retries = 3;
+  while (retries > 0) {
+    try {
+      const result = await model.generateContent(prompt);
+      const response = result.response;
+      fullText = response.text();
+      break; // Success, exit loop
+    } catch (error) {
+      if (error.message && error.message.includes('503 Service Unavailable')) {
+        console.warn(`⚠️ 503 Service Unavailable. Retries left: ${retries - 1}. Waiting 10 seconds...`);
+        retries--;
+        if (retries === 0) {
+          console.error('❌ Failed after 3 retries due to high demand.');
+          process.exit(1);
+        }
+        await new Promise(res => setTimeout(res, 10000)); // wait 10s
+      } else {
+        throw error; // Other error, throw it
+      }
+    }
+  }
 
   if (!fullText || fullText.trim().length < 100) {
     console.error('❌ Gemini returned an empty or too-short response.');
