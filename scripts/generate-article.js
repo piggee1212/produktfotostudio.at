@@ -173,7 +173,7 @@ category: "${article.category}"
 keywords:
 ${article.keywords.map((k) => `  - "${k}"`).join('\n')}
 author: "Vladimir Kocian"
-publishDate: ${dateStr}
+publishDate: "${dateStr}"
 linkTo: "${article.linkTo}"
 slug: "${article.slug}"
 ---`;
